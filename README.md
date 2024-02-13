@@ -14,9 +14,9 @@ docker run --rm --name radius-admin -t -p 1812-1813:1812-1813/udp radius-admin-i
 `192.168.100.60` is where running this docker image.
 
 ```bash
-> radtest tknv symbol 192.168.100.60 1812 symbol123
+> radtest awaslab symbol 192.168.100.60 1812 symbol123
 Sent Access-Request Id 106 from 0.0.0.0:37059 to 192.168.100.60:1812 length 74
-        User-Name = "tknv"
+        User-Name = "awaslab"
         User-Password = "symbol"
         NAS-IP-Address = 127.0.1.1
         NAS-Port = 1812
