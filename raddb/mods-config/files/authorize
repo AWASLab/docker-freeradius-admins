@@ -1,5 +1,8 @@
-tknv Cleartext-Password := "symbol"
+awaslab Cleartext-Password := "symbol"
   symbol-Admin-Role = SuperUser,
   Service-Type = Administrative-User,
   Filter-Id += "Entrasys:mgmt=su:",
-  Filter-Id += "Entrasys:version=1:mgmt=su:"
+  Filter-Id += "Entrasys:version=1:mgmt=su:",
+  Tunnel-Medium-Type = "IEEE-802", 
+  Tunnel-Type = "VLAN",
+  Tunnel-Private-Group-Id = "10"
